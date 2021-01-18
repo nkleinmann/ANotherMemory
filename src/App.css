@@ -2,3 +2,18 @@
   font-family: 'Indie Flower', cursive;
 }
 
+.App {
+  position: relative;
+  text-align: center;
+  display: block;
+  box-sizing: border-box;
+}
+
+.footer {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  bottom: 0;
+  width: 100vw;
+  padding-bottom: 1rem;
+}
