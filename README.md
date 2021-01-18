@@ -1,4 +1,4 @@
 # ANotherMemory
 
 Check out the design app:
-[ANotherMemory](https://another-memory.herokuapp.com/)
+[Grandma's Cards](https://another-memory.herokuapp.com/)
