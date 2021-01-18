@@ -17,6 +17,10 @@
   box-sizing: border-box;
 }
 
+.account {
+  margin: 1rem;
+}
+
 h1.homeTitle {
   font-size: 45px;;
 }
