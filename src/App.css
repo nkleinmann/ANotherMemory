@@ -1,12 +1,28 @@
-.App {
+* {
+  font-family: 'Merienda', cursive;
+}
+
+.wave-container {
   position: relative;
-  text-align: center;
+  overflow: hidden;
+}
+.wave-container > svg {
   display: block;
+}
+
+.App {
+  /* position: relative; */
+  text-align: center;
+  /* display: block; */
   box-sizing: border-box;
 }
 
 .account {
   margin: 1rem;
+}
+
+h1.homeTitle {
+  font-size: 45px;;
 }
 
 .footer {
