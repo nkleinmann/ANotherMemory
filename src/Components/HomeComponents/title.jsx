@@ -2,14 +2,14 @@ import React from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-function Blurb() {
+function Title() {
     return (
         <Row>
             <Col>
-                <p>Why not paint?!</p>
+                <h1 className="homeTitle">Grandma's Cards</h1>
             </Col>
         </Row>
     )
 }
 
-export default Blurb;
+export default Title;
