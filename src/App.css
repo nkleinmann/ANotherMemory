@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+.account {
+  margin: 1rem;
+}
+
 .footer {
   position: fixed;
   display: flex;
