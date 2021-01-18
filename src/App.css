@@ -1,12 +1,24 @@
 * {
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Merienda', cursive;
+}
+
+.wave-container {
+  position: relative;
+  overflow: hidden;
+}
+.wave-container > svg {
+  display: block;
 }
 
 .App {
-  position: relative;
+  /* position: relative; */
   text-align: center;
-  display: block;
+  /* display: block; */
   box-sizing: border-box;
+}
+
+h1.homeTitle {
+  font-size: 45px;;
 }
 
 .footer {

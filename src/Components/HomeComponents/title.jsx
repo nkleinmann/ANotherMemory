@@ -4,9 +4,9 @@ import Col from 'react-bootstrap/Col';
 
 function Title() {
     return (
-        <Row className="justify-content-center">
+        <Row>
             <Col>
-                <h1>Grandma's Cards</h1>
+                <h1 className="homeTitle">Grandma's Cards</h1>
             </Col>
         </Row>
     )
