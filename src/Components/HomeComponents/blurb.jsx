@@ -4,8 +4,8 @@ import Col from 'react-bootstrap/Col';
 
 function Blurb() {
     return (
-        <Row>
-            <Col>
+        <Row >
+            <Col className="text-center">
                 <p>Why not paint?!</p>
             </Col>
         </Row>
