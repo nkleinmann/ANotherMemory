@@ -6,7 +6,7 @@ function Title() {
     return (
         <Row>
             <Col>
-                <h1 className="homeTitle">Grandma's Cards</h1>
+                <h1 className="homeTitle text-center">Grandma's Cards</h1>
             </Col>
         </Row>
     )

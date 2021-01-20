@@ -1,7 +1,11 @@
-* {
+.App {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
   font-family: 'Merienda', cursive;
 }
 
+/* Wave on home page */
 .wave-container {
   position: relative;
   overflow: hidden;
@@ -9,27 +13,26 @@
 .wave-container > svg {
   display: block;
 }
+/* End of wave on home page */
 
-.App {
-  /* position: relative; */
-  text-align: center;
-  /* display: block; */
-  box-sizing: border-box;
-}
-
-.account {
+/* Home page */
+Button.account {
   margin: 1rem;
 }
 
 h1.homeTitle {
   font-size: 45px;;
 }
+/* End of home page */
 
+/* Footer */
 .footer {
   position: fixed;
   display: flex;
   justify-content: center;
   bottom: 0;
   width: 100vw;
+  margin: 0px;
   padding-bottom: 1rem;
 }
+/* End of footer */

@@ -1,7 +1,7 @@
-import React from 'react';
+// import React from 'react';
 
 function Cards() {
-    return()
+    return("hi")
 }
 
 export default Cards;
