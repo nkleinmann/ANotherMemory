@@ -4,11 +4,14 @@ import Col from 'react-bootstrap/Col';
 
 function Blurb() {
     return (
-        <Row >
-            <Col className="text-center">
-                <p>Why not paint?!</p>
-            </Col>
-        </Row>
+        <div>
+            <Row className="justify-content-center mt-2">
+                <Col sm={5} >
+                    <p className="text-center">Need a card? Grandma's Cards includes a range of hand painted and unique designs.
+                    Create an account and be able to view charming and heart warming desings for a special occasion.</p>
+                </Col>
+            </Row>
+        </div>
     )
 }
 
