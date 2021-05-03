@@ -5,8 +5,8 @@ import Col from 'react-bootstrap/Col';
 function Blurb() {
     return (
         <div>
-            <Row className="justify-content-center mt-2">
-                <Col sm={5} >
+            <Row className="homeBlurb justify-content-center mt-2 p-5">
+                <Col sm={11} md={5} className="homeBlurbColor p-3">
                     <p className="text-center">Need a card? Grandma's Cards includes a range of hand painted and unique designs.
                     Create an account and be able to view charming and heart warming desings for a special occasion.</p>
                 </Col>
