@@ -11,7 +11,6 @@ function Home() {
     <>
       <Navigation />
       <div
-        className="wave-container"
         style={{
           backgroundImage: `url(${paint1})`,
           backgroundRepeat: "no-repeat",
