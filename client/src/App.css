@@ -2,26 +2,27 @@
   position: relative;
   display: block;
   box-sizing: border-box;
-  font-family: 'Merienda', cursive;
+  font-family: 'Indie Flower', sans-serif;
+  color: white;
 }
-
-/* Wave on home page */
-.wave-container {
-  position: relative;
-  overflow: hidden;
-}
-.wave-container > svg {
-  display: block;
-}
-/* End of wave on home page */
 
 /* Home page */
+
 Button.account {
   margin: 1rem;
 }
 
 h1.homeTitle {
-  font-size: 45px;;
+  font-size: 85px;
+}
+
+div.homeBlurb {
+  font-size: 30px;
+}
+
+.homeBlurbColor {
+  background-color: rgb(118, 115, 115, 0.5);
+  border-radius: 20%;
 }
 /* End of home page */
 
