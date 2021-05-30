@@ -1,8 +1,15 @@
 .App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* overflow: hidden; */
+  margin: 0;
   position: relative;
   display: block;
   box-sizing: border-box;
-  font-family: 'Indie Flower', sans-serif;
+  font-family: "Indie Flower", sans-serif;
   color: white;
 }
 

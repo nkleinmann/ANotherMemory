@@ -13,8 +13,6 @@ function Home() {
       <div
         style={{
           backgroundImage: `url(${paint1})`,
-          backgroundRepeat: "no-repeat",
-          width: "100%",
           height: "100%",
         }}
       >
