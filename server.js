@@ -1,5 +1,6 @@
 const express = require("express");
 const session = require("express-session");
+const mongoose = require("mongoose");
 const passport = require("passport");
 require('dotenv').config();
 
@@ -38,21 +39,17 @@ const login = {
     
 }
 
+// Connecting DB
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/Grandmas-Cards", {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useCreateIndex: true,
+    useFindAndModify: false
+});
 
 // Routes //
 app.use(session(login));
 // app.use(require("./routes/api.js"));
-
-
-
-// Connecting DB
-// mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/Budget-Tracker", {
-//   useNewUrlParser: true,
-//   useUnifiedTopology: true,
-//   useCreateIndex: true,
-//   useFindAndModify: false
-// });
-
 
 
 app.listen(PORT, () => {
