@@ -3,7 +3,7 @@ import Row from 'react-bootstrap/Row';
 
 function Footer() {
     return(
-        <Row>
+        <Row className="footerRow">
             <footer className="footer">Grandma's Cards | &copy; {new Date().getFullYear()}</footer>
         </Row>
     )
