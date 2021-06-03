@@ -10,30 +10,42 @@
   display: block;
   box-sizing: border-box;
   font-family: "Indie Flower", sans-serif;
-  color: white;
+  color: rgba(33, 13, 84)
+  /* color: white; */
 }
 
 /* Home page */
 
 Button.account {
-  margin: 1rem;
+  /* margin: 1rem; */
+  padding: 15px;
+  font-size: 1.1rem;
+  background-color: rgba(33, 13, 84, 0.804);
+  color: white;
+
 }
 
 h1.homeTitle {
-  font-size: 85px;
+  font-size: 8rem;
 }
 
 div.homeBlurb {
-  font-size: 30px;
+  font-size:1.75rem;
 }
 
 .homeBlurbColor {
   background-color: rgb(118, 115, 115, 0.5);
-  border-radius: 20%;
+  border-radius: 5px;
 }
+
 /* End of home page */
 
 /* Footer */
+
+/* div.footerRow {
+  margin-top: 20%;
+} */
+
 .footer {
   position: fixed;
   display: flex;
