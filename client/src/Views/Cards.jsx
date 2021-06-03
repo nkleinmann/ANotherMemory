@@ -1,7 +1,10 @@
-// import React from 'react';
+import React from 'react';
 
 function Cards() {
-    return("hi")
+    return(
+        <p>Cards</p>
+
+    )
 }
 
 export default Cards;
