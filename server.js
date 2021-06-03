@@ -39,6 +39,11 @@ const login = {
     
 }
 
+// Routes //
+app.use(session(login));
+// app.use(require("./routes/api.js"));
+
+
 // Connecting DB
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/Grandmas-Cards", {
     useNewUrlParser: true,
@@ -46,11 +51,6 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/Grandmas-Cards"
     useCreateIndex: true,
     useFindAndModify: false
 });
-
-// Routes //
-app.use(session(login));
-// app.use(require("./routes/api.js"));
-
 
 app.listen(PORT, () => {
     console.log(`App running on port ${PORT}`)
